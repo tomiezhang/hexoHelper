@@ -1,13 +1,13 @@
 var Vue = require('vue/dist/vue.js');
-
+require('./sass/base')
 console.log(Vue);
 
 var example1 = new Vue({
   el: '#example-1',
   data: {
     items: [
-      {message: 'foosssaaass' },
-      {message: 'Barqqqdasdsaasw133889' }
+      {message: 'foos22444ss' },
+      {message: 'Barqqqda2sw133889' }
     ]
   }
 })
